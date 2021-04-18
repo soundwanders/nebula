@@ -11,3 +11,9 @@ body {
   height: 15vw;
   object-fit: cover;
 }
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
