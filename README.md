@@ -1,3 +1,6 @@
-# A Gallery of Nebulae
+# Nebula
 
-### Built with HTML, CSS, JavaScript, jQuery, Bootstrap
+##### A mobile-first design built with Bootstrap
+
+
+##### Gallery of extraordinary diffuse nebulae
