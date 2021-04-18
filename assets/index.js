@@ -1,5 +1,3 @@
-// JavaScript
+// starmap javascript
 
-let soundwanders;
-
-soundwanders;
+const bootstrap = require('bootstrap');
