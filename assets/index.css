@@ -1,11 +1,13 @@
-html {
-    background: dark;
-}
-
 body {
     z-index: 1;
 }
 
 .navbar li a {
   color: white;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
 }

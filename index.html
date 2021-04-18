@@ -5,7 +5,7 @@
 <html lang="en">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="starMap"/>
+<meta name="description" content="nebula"/>
 <meta name="author" content=""/>
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -13,89 +13,120 @@
 
 </head>
 
-<title>Nebula</title>
+<title>Discover the Nebulae</title>
 
 <body>
-<nav class="navbar bg-dark navbar-expand-md">
-    <ul class ="navbar-nav">
-      <li class="nav-item ">
-        <a class="nav-link" href = "https://en.wikipedia.org/wiki/Lists_of_nebulae" target="_blank">Nebula Wiki</a>
-      </li>
-    </ul>
-</nav>
 
-<main>
-  <div class="container">
+  <nav class="navbar bg-dark navbar-expand-md">
+    <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="main-navigation">
+      <ul class ="navbar-nav">
+        <li class="nav-item ">
+          <a class="nav-link" href = "https://en.wikipedia.org/wiki/Lists_of_nebulae" target="_blank">Lists of Discovered Nebulae</a>
+        </li>
 
-    <div class="row">
-      <div class="col-lg">
-        <!-- nebula cards -->
-        <div class="card">
+        <li class="nav-item ">
+          <a class="nav-link" href = "https://www.britannica.com/science/nebula/Historical-survey-of-the-study-of-nebulae" target="_blank">Learn More About Nebulae</a>
+        </li>
 
-          <img class="card-img-top" src="/assets/images/thorsHelmet.jpeg">
-          
-          <div class="card-body">
-            <h4 class="card-title"><a>Thor's Helmet</a></h4>
-            <p class="card-text">NGC 2359 (also known as Thor's Helmet) is an emission nebula in the constellation Canis Major.
-              The nebula is approximately 11.96 thousand light years away and 30 light-years in size.
-              <br><br>
-              The central star is the Wolf-Rayet star WR7, an extremely hot star thought to be in a brief pre-supernova stage of evolution.
-              Similar in nature to the Bubble Nebula, but interactions with a nearby large molecular cloud are thought to have contributed
-              to the more complex shape and curved bow-shock structure.
-            </p>
-            <a href="https://en.wikipedia.org/wiki/NGC_2359" class="btn btn-primary"  target="_blank">NGC 2359 Wiki</a>
-          </div>
-        
-        </div>
-      </div>
-      <div class="col-md">
-        <div class="card">
-
-          <img class="card-img-top" src="####">
-          
-          <div class="card-body">
-            <h4 class="card-title"><a>Thor's Helmet</a></h4>
-            <p class="card-text">starGoHere.</p>
-            <a href="####" class="btn btn-primary">Read more...</a>
-          </div>
-        
-        </div>
-      </div>
-
-      <div class="col-md">
-        <div class="card">
-
-          <img class="card-img-top" src="####">
-          
-          <div class="card-body">
-            <h4 class="card-title"><a>Chase's Helmet</a></h4>
-            <p class="card-text">monka boi.</p>
-            <a href="####" class="btn btn-primary">Read more...</a>
-          </div>
-        
-        </div>
-      </div>
-      
+        <li class="nav-item ">
+          <a class="nav-link" href = "https://en.wikipedia.org/wiki/Nebula" target="_blank">Nebula Wiki</a>
+        </li>
+      </ul>
     </div>
-  </div>
+  </nav>
 
-</main>
+  <main>
+    <div class="container">
+      <!-- start row -->
+      <div class="row">
 
-<!-- JQuery -->
-<script type="text/javascript" 
-    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js">    
-</script>
+        <!-- CRESCENT nebula card -->
+        <div class="col-md">
+          <div class="card">
 
-<!-- Bootstrap -->
-<script type="text/javascript" 
-    src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js">    
-</script>
+            <img class="card-img-top" src="/assets/images/crescent.jpg">
+            
+            <div class="card-body">
+              <h4 class="card-title"><a>Crescent</a></h4>
+              <p class="card-text">
+                The Crescent Nebula (also known as NGC 6888) is an emission nebula in the constellation Cygnus, 
+                about 5000 light-years away from Earth. It was discovered by William Herschel in 1792.
+                <br><br>
+                It is formed by the faster stellar wind from the Wolf-Rayet star WR 136 colliding with and energizing the
+                slower moving wind ejected by the star when it became a red giant 250,000 to 400,000 years ago. 
+                The result of the collision is a shell and two shock waves, one moving outward and one moving inward, with the
+                inward moving shock wave heating the stellar wind to X-ray-emitting temperatures.
+              </p>
+              <a href="https://en.wikipedia.org/wiki/Crescent_Nebula" class="btn btn-primary">NGC 6888 Wiki</a>
+            </div>
+          </div>
+        </div>
 
-<script type="text/javascript" 
-    src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/js/mdb.min.js">    
-</script>
+        <!-- LAGOON nebula card -->
+        <div class="col-md">
+          <div class="card">
+            <img class="card-img-top" src="/assets/images/lagoon.jpg">
+            
+            <div class="card-body">
+              <h4 class="card-title"><a>Lagoon</a></h4>
+              <p class="card-text">The Lagoon Nebula (also known as NGC 6523) is a giant interstellar cloud in the constellation Sagittarius.
+                It is classified as an emission nebula and as an H II region. It is estimated to be between 4,000-6,000 light-years away from Earth.
+                In the sky of Earth, it spans 90' by 40', which translates to an actual dimension of 110 by 50 light years.
+                <br><br>
+                The Lagoon Nebula was discovered by Giovanni Hodierna before 1654 and is one of only two star-forming nebulae faintly visible to the
+                eye from mid-northern latitudes. Seen with binoculars, it appears as a distinct oval cloudlike patch with a definite core.
+              </p>
+              <a href="https://en.wikipedia.org/wiki/Lagoon_Nebula" class="btn btn-primary">NGC 6523 Wiki</a>
+            </div>
+          </div>
+        </div>
 
-<script type="text/javascript" src="assets/index.js"></script>
+        <!-- THOR'S HELMET nebula card -->
+        <div class="col-md">
+          <div class="card">
+
+            <img class="card-img-top" src="/assets/images/thorsHelmet.jpeg">
+            
+            <div class="card-body">
+              <h4 class="card-title"><a>Thor's Helmet</a></h4>
+              <p class="card-text">NGC 2359 (also known as Thor's Helmet) is an emission nebula in the constellation Canis Major.
+                The nebula is approximately 11.96 thousand light years away and 30 light-years in size.
+                <br><br>
+                The central star is the Wolf-Rayet star WR7, an extremely hot star thought to be in a brief pre-supernova stage of evolution.
+                Similar in nature to the Bubble Nebula, but interactions with a nearby large molecular cloud are thought to have contributed
+                to the more complex shape and curved bow-shock structure.
+              </p>
+              <a href="https://en.wikipedia.org/wiki/NGC_2359" class="btn btn-primary"  target="_blank">NGC 2359 Wiki</a>
+            </div>
+          
+          </div>
+        </div>
+
+      <!-- end row -->
+      </div>
+
+    <!--- end of nebula cards -->
+    </div>
+  </main>
+
+  <!-- JQuery -->
+  <script type="text/javascript" 
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js">    
+  </script>
+  <!-- Bootstrap -->
+  <script type="text/javascript" 
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js">    
+  </script>
+  <!--Boostrap Material Design -->
+  <script type="text/javascript" 
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/js/mdb.min.js">    
+  </script>
+
+  <script type="text/javascript" src="assets/index.js"></script>
 
 </body>
 
