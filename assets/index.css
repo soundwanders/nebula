@@ -3,7 +3,7 @@ body {
 }
 
 .navbar {
-  margin-bottom: 15px;
+  margin-bottom: 1%;
 }
 
 .navbar li a {
@@ -37,11 +37,7 @@ body {
   border: none;
 }
 
-img:hover {
-  opacity: 0.8;
-}
-
-.card {
+.col-md {
   margin-right: 15px;
 }
 
@@ -51,6 +47,10 @@ img:hover {
   min-height: 15vw;
   object-fit: cover;
   border: none;
+}
+
+img:hover {
+  opacity: 0.8;
 }
 
 .card-body {
@@ -63,4 +63,11 @@ img:hover {
   color:slateblue;
   font-family: 'Open-Sans', sans-serif;
   font-weight: 800;
+}
+
+@media (min-width: 1000px) {
+
+  .row {
+      margin-top: 2%;
+   }
 }
