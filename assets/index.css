@@ -38,7 +38,7 @@ body {
 }
 
 .col-md {
-  margin-right: 15px;
+  margin-right: 2%;
 }
 
 .card-img-top {
@@ -47,6 +47,7 @@ body {
   min-height: 15vw;
   object-fit: cover;
   border: none;
+  outline: none;
 }
 
 img:hover {
