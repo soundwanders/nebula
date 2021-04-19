@@ -1,9 +1,48 @@
 body {
-    z-index: 1;
+  background-color: rgb(15, 20, 45);
+}
+
+.navbar {
+  margin-bottom: 15px;
 }
 
 .navbar li a {
   color: white;
+  margin-right: 15px;
+}
+
+.btn-primary {
+  background-color: slateblue;
+  box-shadow: inset 0 1px 1px #fff, 0 0 1px #8ec1da;
+  -o-box-shadow: inset 0 1px 1px #fff, 0 0 1px #8ec1da;
+  -webkit-box-shadow: inset 0 1px 1px #fff, 0 0 1px #8ec1da;
+  -moz-box-shadow: inset 0 1px 1px #fff,0 0 1px #8ec1da;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  padding: 5px 15px;
+}
+
+.btn-primary:hover {
+  background-color: slateblue;
+  opacity: 0.9;
+}
+
+.btn-primary:active {
+  background-color: #e5e5e5;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+  -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+  box-shadow: inset 0px 0px 5px #c1c1c1;
+  outline: none;
+  border: none;
+}
+
+img:hover {
+  opacity: 0.8;
+}
+
+.card {
+  margin-right: 15px;
 }
 
 .card-img-top {
@@ -11,4 +50,17 @@ body {
   max-width: 100%;
   min-height: 15vw;
   object-fit: cover;
+  border: none;
+}
+
+.card-body {
+  background-color: rgb(255, 235, 250);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.card-title {
+  color:slateblue;
+  font-family: 'Open-Sans', sans-serif;
+  font-weight: 800;
 }

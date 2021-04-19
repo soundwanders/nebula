@@ -8,32 +8,35 @@
 <meta name="description" content="nebula"/>
 <meta name="author" content=""/>
 
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="assets/index.css">
-
 </head>
-
+ 
 <title>.nebula</title>
 
 <body>
-
+  <!-- Navigation bar, collapses on mobile devices -->
   <nav class="navbar bg-dark navbar-expand-md">
     <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     
     <div class="collapse navbar-collapse" id="main-navigation">
-      <ul class ="navbar-nav">
+      <ul class="navbar-nav">
         <li class="nav-item ">
-          <a class="nav-link" href = "https://en.wikipedia.org/wiki/Lists_of_nebulae" target="_blank">Lists of Discovered Nebulae</a>
+          <a class="nav-link" href="https://en.wikipedia.org/wiki/Lists_of_nebulae" target="_blank">Lists of Discovered Nebulae</a>
         </li>
 
         <li class="nav-item ">
-          <a class="nav-link" href = "https://www.britannica.com/science/nebula/Historical-survey-of-the-study-of-nebulae" target="_blank">Learn More About Nebulae</a>
+          <a class="nav-link" href="https://www.britannica.com/science/nebula/Historical-survey-of-the-study-of-nebulae" target="_blank">Learn More About Nebulae</a>
         </li>
 
         <li class="nav-item ">
-          <a class="nav-link" href = "https://en.wikipedia.org/wiki/Nebula" target="_blank">Nebula Wiki</a>
+          <a class="nav-link" href="https://en.wikipedia.org/wiki/Nebula" target="_blank">Nebula Wiki</a>
         </li>
       </ul>
     </div>
@@ -47,39 +50,39 @@
         <!-- CRESCENT nebula card -->
         <div class="col-md">
           <div class="card">
-            <img class="card-img-top" src="assets/images/crescent.jpg">
+            <img class="card-img-top" data-enlargeable width="100" style="cursor: zoom-in" src="assets/images/crescent.jpg">
             
             <div class="card-body">
               <h4 class="card-title"><a>Crescent</a></h4>
               <p class="card-text">
-                The Crescent Nebula (also known as NGC 6888) is an emission nebula in the constellation Cygnus, 
-                about 5000 light-years away from Earth. It was discovered by William Herschel in 1792.
+                Discovered by William Herschel in 1792, the Crescent Nebula (also known as NGC 6888) is an emission nebula in the constellation Cygnus, 
+                about 5000 light-years away from Earth.
                 <br><br>
-                It is formed by the faster stellar wind from the Wolf-Rayet star WR 136 colliding with and energizing the
-                slower moving wind ejected by the star when it became a red giant 250,000 to 400,000 years ago. 
-                The result of the collision is a shell and two shock waves, one moving outward and one moving inward, with the
-                inward moving shock wave heating the stellar wind to X-ray-emitting temperatures.
+                The Crescent nebula is formed by the faster stellar wind from the Wolf-Rayet star WR 136 colliding with and energizing the
+                slower moving wind ejected by the star when it became a red giant.
+                The result of the collision is a shell and two shock waves, one moving outward and one inward.
+                The inward moving shock wave heats the stellar wind to X-ray-emitting temperatures. 
               </p>
-              <a href="https://en.wikipedia.org/wiki/Crescent_Nebula" class="btn btn-primary">NGC 6888 Wiki</a>
+              <a href="https://en.wikipedia.org/wiki/Crescent_Nebula" class="btn btn-primary" target="_blank">NGC 6888 Wiki</a>
             </div>
           </div>
         </div>
-
+  
         <!-- LAGOON nebula card -->
         <div class="col-md">
           <div class="card">
-            <img class="card-img-top" src="assets/images/lagoon.jpg">
+            <img class="card-img-top" data-enlargeable width="100" style="cursor: zoom-in" src="assets/images/lagoon.jpg">
             
             <div class="card-body">
               <h4 class="card-title"><a>Lagoon</a></h4>
-              <p class="card-text">The Lagoon Nebula (also known as NGC 6523) is a giant interstellar cloud in the constellation Sagittarius.
-                It is classified as an emission nebula and as an H II region. The nebula is estimated to be between 4,000-6,000 light-years away from Earth.
-                In the sky of Earth, it spans 90' by 40', which translates to 110 by 50 light years.
+              <p class="card-text"> Discovered by Giovanni Hodierna before 1654, the Lagoon Nebula (also known as NGC 6523) is a giant interstellar cloud
+                in the constellation Sagittarius. It is between 4,000-6,000 light-years away from Earth.
                 <br><br>
-                The Lagoon Nebula was discovered by Giovanni Hodierna before 1654 and is one of only two star-forming nebulae faintly visible to the
+                The Lagoon Nebula is one of only two star-forming nebulae faintly visible to the
                 eye from mid-northern latitudes. Seen with binoculars, it appears as a distinct oval cloudlike patch with a definite core.
+                It is classified as an emission nebula and as an H II region, which means it is ionized.
               </p>
-              <a href="https://en.wikipedia.org/wiki/Lagoon_Nebula" class="btn btn-primary">NGC 6523 Wiki</a>
+              <a href="https://en.wikipedia.org/wiki/Lagoon_Nebula" class="btn btn-primary" target="_blank">NGC 6523 Wiki</a>
             </div>
           </div>
         </div>
@@ -87,41 +90,30 @@
         <!-- THOR'S HELMET nebula card -->
         <div class="col-md">
           <div class="card">
-            <img class="card-img-top" src="assets/images/thorsHelmet.jpeg">
-            
+            <img class="card-img-top" data-enlargeable width="100" style="cursor: zoom-in" src="assets/images/thorsHelmet.jpeg">
+
             <div class="card-body">
               <h4 class="card-title"><a>Thor's Helmet</a></h4>
               <p class="card-text">NGC 2359 (also known as Thor's Helmet) is an emission nebula in the constellation Canis Major.
                 The nebula is approximately 11.96 thousand light years away and 30 light-years in size.
                 <br><br>
-                The central star is the Wolf-Rayet star WR7, an extremely hot star thought to be in a brief pre-supernova stage of evolution.
-                Thor's Helmet is similar in nature to the Bubble Nebula, but interactions with a nearby large molecular cloud are thought to have contributed
-                to the more complex shape and curved bow-shock structure.
+                The central star is the Wolf-Rayet star WR7. Thor's Helmet is similar in nature to the Bubble Nebula, but interactions with a
+                nearby large molecular cloud are thought to have contributed to the more complex shape and curved bow-shock structure.
+                The nebula contains several hundred solar masses of ionised material, plus several thousand more of unionised gas. 
               </p>
-              <a href="https://en.wikipedia.org/wiki/NGC_2359" class="btn btn-primary"  target="_blank">NGC 2359 Wiki</a>
+              <a href="https://en.wikipedia.org/wiki/NGC_2359" class="btn btn-primary" target="_blank">NGC 2359 Wiki</a>
             </div>
           </div>
-
-        <!--- end of nebula cards-->
         </div>
       </div>
     </div>
   </main>
 
-  <!-- JQuery -->
-  <script type="text/javascript" 
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js">    
-  </script>
-  <!-- Bootstrap -->
-  <script type="text/javascript" 
-      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js">    
-  </script>
-  <!--Boostrap Material Design -->
-  <script type="text/javascript" 
-      src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/js/mdb.min.js">    
-  </script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-  <script type="text/javascript" src="assets/index.js"></script>
+  <script type="module" src="assets/index.js"></script>
 
 </body>
 
