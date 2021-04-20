@@ -1,12 +1,15 @@
 body {
-  background-color: rgb(15, 20, 45);
+  background-color: rgb(30, 5, 55);
 }
 
 .navbar {
+  background: rgb(24, 0, 59);
+  border-bottom: 2px solid rgb(235, 235, 180);
   margin-bottom: 1%;
 }
 
 .navbar li a {
+  font-family: 'Open-Sans' , 'sans-serif';
   color: white;
   margin-right: 15px;
 }
@@ -17,7 +20,7 @@ body {
   -o-box-shadow: inset 0 1px 1px #fff, 0 0 1px #8ec1da;
   -webkit-box-shadow: inset 0 1px 1px #fff, 0 0 1px #8ec1da;
   -moz-box-shadow: inset 0 1px 1px #fff,0 0 1px #8ec1da;
-  border-radius: 8px;
+  border-radius: 5px;
   outline: none;
   border: none;
   padding: 5px 15px;
@@ -25,14 +28,16 @@ body {
 
 .btn-primary:hover {
   background-color: slateblue;
+  border-radius: 5px 20px;
   opacity: 0.9;
 }
 
 .btn-primary:active {
-  background-color: #e5e5e5;
-  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
-  -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
-  box-shadow: inset 0px 0px 5px #c1c1c1;
+  background-color: #ffffff;
+  box-shadow: inset 0 3px 3px #fff, 0 0 3px #6f7579;
+  -o-box-shadow: inset 0 3px 3px #fff, 0 0 3px #6f7579;
+  -webkit-box-shadow: inset 0 3px 3px #fff, 0 0 3px #6f7579;
+  -moz-box-shadow: inset 0 3px 3px #fff,0 0 3px #6f7579;
   outline: none;
   border: none;
 }
@@ -55,19 +60,19 @@ img:hover {
 }
 
 .card-body {
-  background-color: rgb(255, 235, 250);
+  background-color: rgb(245, 235, 250);
   font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
+  font-weight: 500;
+  color: #000;
 }
 
 .card-title {
-  color:slateblue;
+  color:darkslateblue;
   font-family: 'Open-Sans', sans-serif;
   font-weight: 800;
 }
 
 @media (min-width: 1000px) {
-
   .row {
       margin-top: 2%;
    }
