@@ -21,7 +21,7 @@ $(document).ready(function() {
       zIndex: '10000',
       top: '0',
       left: '0',
-      cursor: 'zoom-out'
+      cursor: 'zoom-out' ,
     })
     .click(function () {
       removeModal();
