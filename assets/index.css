@@ -4,23 +4,24 @@ body {
 
 .navbar {
   background: #000;
-  border-bottom: 1px solid rgb(235, 235, 180);
+  border-bottom: 1px solid #5faeec;
   margin-bottom: 5px;
 }
 
 .navbar-brand {
-  cursor: initial;
+  cursor: default;
 }
 
 .navbar li a {
   font-family: 'Open-Sans' , 'sans-serif';
   color: white;
   margin-right: 15px;
-  cursor: default;
+  cursor: pointer;
 }
 
 .navbar li a:hover {
   color:rgb(235, 235, 180);
+  text-decoration: none;
 }
 .navbar li a:active {
   box-shadow: 0 1px 1px #fff, 1px 0 2px #8ec1da;
@@ -71,7 +72,7 @@ img:hover{
   min-height: 15vw;
   object-fit: cover;
   border: none;
-  box-shadow: 0 0 1px 1px rgb(167, 153, 255);
+  box-shadow: 0 0 1px 1px #5faeec;
 }
 
 .card-body {
@@ -79,8 +80,8 @@ img:hover{
   font-family: 'Open Sans', sans-serif;
   font-weight: 500;
   color: #000;
-  border-bottom: 3px solid rgb(167, 153, 255);
-  box-shadow: 0 1px 1px 1px rgb(167, 153, 255);
+  border-bottom: 3px solid #5faeec;
+  box-shadow: 0 1px 1px 1px #5faeec;
 }
 
 .card-title {
