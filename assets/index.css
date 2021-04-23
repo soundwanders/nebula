@@ -1,10 +1,10 @@
 body {
-  background-color: #000;
+  background-color: rgb(30, 5, 55);
 }
 
 .navbar {
   background: #000;
-  border-bottom: 1px solid #5faeec;
+  border-bottom: 1px solid rgb(165, 155, 255);
   margin-bottom: 5px;
 }
 
@@ -69,10 +69,10 @@ img:hover{
 .card-img-top {
   display: block;
   min-width: 100%;
-  min-height: 15vw;
+  height: 15vw;
   object-fit: cover;
   border: none;
-  box-shadow: 0 0 1px 1px #5faeec;
+  box-shadow: 0 0 1px 1px rgb(165, 155, 255);
 }
 
 .card-body {
@@ -80,8 +80,8 @@ img:hover{
   font-family: 'Open Sans', sans-serif;
   font-weight: 500;
   color: #000;
-  border-bottom: 3px solid #5faeec;
-  box-shadow: 0 1px 1px 1px #5faeec;
+  border-bottom: 3px solid rgb(165, 155, 255);
+  box-shadow: 0 1px 1px 1px rgb(165, 155, 255);
 }
 
 .card-title {
@@ -90,16 +90,13 @@ img:hover{
   font-weight: 800;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   .row {
-      margin-top: 3%;
+      margin-top: 2%;
    }
 }
 
 @media (max-width: 768px) and (orientation: landscape) {
-  .row {
-    margin-top: -2%;
-  }
   .col-md {
       min-width: 100%;
       height: auto;
