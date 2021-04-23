@@ -56,7 +56,7 @@ body {
   border: none;
 }
 
-.col-sm {
+.col-md {
   margin-right: 2%;
 }
 
@@ -71,6 +71,7 @@ img:hover{
   min-height: 15vw;
   object-fit: cover;
   border: none;
+  box-shadow: 0 0 1px 1px rgb(167, 153, 255);
 }
 
 .card-body {
@@ -78,6 +79,8 @@ img:hover{
   font-family: 'Open Sans', sans-serif;
   font-weight: 500;
   color: #000;
+  border-bottom: 3px solid rgb(167, 153, 255);
+  box-shadow: 0 1px 1px 1px rgb(167, 153, 255);
 }
 
 .card-title {
@@ -88,16 +91,13 @@ img:hover{
 
 @media (min-width: 992px) {
   .row {
-      margin-top: 2%;
+      margin-top: 3%;
    }
 }
 
-@media (min-width: 320px) and (orientation: landscape) {
+@media (max-width: 768px) and (orientation: landscape) {
   .col-md {
       min-width: 100%;
       height: auto;
-  }
-  .card-body {
-    border-bottom: 2px solid rgb(235, 235, 180);
   }
 }
