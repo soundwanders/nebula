@@ -68,8 +68,7 @@ img:hover{
 .card-img-top {
   display: block;
   min-width: 100%;
-  min-height: 20vw;
-  max-height: 20vw;
+  min-height: 15vw;
   object-fit: cover;
   border: none;
 }
@@ -93,7 +92,7 @@ img:hover{
    }
 }
 
-@media (max-width: 768px) and (orientation: landscape) {
+@media (min-width: 320px) and (max-width: 768px) and (orientation: landscape) {
   .col-md {
       min-width: 100%;
       height: auto;
