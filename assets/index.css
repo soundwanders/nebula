@@ -5,7 +5,7 @@ body {
 .navbar {
   background: #000;
   border-bottom: 1px solid rgb(235, 235, 180);
-  margin-bottom: 1%;
+  margin-bottom: 5px;
 }
 
 .navbar-brand {
@@ -56,21 +56,22 @@ body {
   border: none;
 }
 
-.col-md {
+.col-sm {
   margin-right: 2%;
-}
-
-.card-img-top {
-  display: block;
-  min-width: 100%;
-  min-height: 15vw;
-  object-fit: cover;
-  border: none;
 }
 
 img:hover{
   opacity: 0.8;
   border: 1px solid rgb(245, 235, 250);
+}
+
+.card-img-top {
+  display: block;
+  min-width: 100%;
+  min-height: 20vw;
+  max-height: 20vw;
+  object-fit: cover;
+  border: none;
 }
 
 .card-body {
@@ -86,8 +87,18 @@ img:hover{
   font-weight: 800;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 900px) {
   .row {
       margin-top: 2%;
    }
+}
+
+@media (max-width: 768px) and (orientation: landscape) {
+  .col-md {
+      min-width: 100%;
+      height: auto;
+  }
+  .card-body {
+    border-bottom: 2px solid rgb(235, 235, 180);
+  }
 }
