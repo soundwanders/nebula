@@ -86,13 +86,13 @@ img:hover{
   font-weight: 800;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 992px) {
   .row {
       margin-top: 2%;
    }
 }
 
-@media (min-width: 320px) and (max-width: 768px) and (orientation: landscape) {
+@media (min-width: 320px) and (orientation: landscape) {
   .col-md {
       min-width: 100%;
       height: auto;
