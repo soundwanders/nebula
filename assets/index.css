@@ -5,7 +5,7 @@ body {
 .navbar {
   background: #000;
   border-bottom: 1px solid rgb(165, 155, 255);
-  margin-bottom: 5px;
+  margin-bottom: 20px;
 }
 
 .navbar-brand {
@@ -13,9 +13,9 @@ body {
 }
 
 .navbar li a {
-  font-family: 'Open-Sans' , 'sans-serif';
+  font-family: 'Open Sans', sans-serif;
   color: white;
-  margin-right: 15px;
+  margin-right: 20px;
   cursor: pointer;
 }
 
@@ -37,13 +37,15 @@ body {
   outline: none;
   border: none;
   padding: 5px 15px;
-  font-family: 'Open-Sans', 'sans-serif';
+  font-family: 'Open Sans', sans-serif;
   letter-spacing: 1px;
+  margin-top:15%;
 }
 
 .btn-primary:hover {
   background-color: slateblue;
-  border-radius: 5px 20px;
+  border-radius: 5px 22px;
+  transition: 0.3s;
   opacity: 0.9;
 }
 
@@ -58,21 +60,28 @@ body {
 }
 
 .col-md {
-  margin-right: 2%;
+  margin-right: 3%;
 }
 
-img:hover{
+img:hover {
   opacity: 0.8;
   border: 1px solid rgb(245, 235, 250);
+  transition: all .3s ease;
 }
 
 .card-img-top {
   display: block;
   min-width: 100%;
-  min-height: 15vw;
+  min-height: 20vw;
   object-fit: cover;
   border: none;
   box-shadow: 0 0 1px 1px rgb(165, 155, 255);
+}
+
+.card-title {
+  color:darkslateblue;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
 }
 
 .card-body {
@@ -81,14 +90,9 @@ img:hover{
   font-weight: 500;
   color: #000;
   border-bottom: 3px solid rgb(165, 155, 255);
-  box-shadow: 0 1px 1px 1px rgb(165, 155, 255);
+  box-shadow: 0 1px 0 1px rgb(165, 155, 255);
 }
 
-.card-title {
-  color:darkslateblue;
-  font-family: 'Open-Sans', sans-serif;
-  font-weight: 800;
-}
 
 @media (min-width: 1025px) {
   .row {

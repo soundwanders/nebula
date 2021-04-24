@@ -18,21 +18,21 @@ $(document).ready(function() {
       width: '100%',
       height: '100%',
       position: 'fixed',
-      zIndex: '10000',
+      zIndex: '100',
       top: '0',
       left: '0',
-      cursor: 'zoom-out' ,
+      cursor: 'zoom-out'
     })
     .click(function () {
       removeModal();
     })
     .appendTo('body');
 
-    // set ESC key to close modal
+    // set ESC key to close modal, useful if unable to click screen
     $('body').on('keyup.modal-close', function (e) {
       if (e.key === 'Escape') {
         removeModal();
       }
     })
-  });
+  })
 });
