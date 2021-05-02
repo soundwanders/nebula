@@ -1,8 +1,7 @@
 # Nebula
 
-##### A mobile-first design built with Bootstrap
+##### Mbile-first design built with Bootstrap
 
-
-##### Gallery of extraordinary nebulae
+##### Gallery of incredible nebulae
 
 <a href="https://soundwanders.github.io/starmap">.nebula</a>
