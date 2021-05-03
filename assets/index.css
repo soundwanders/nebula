@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(30, 5, 55);
+  background-image: linear-gradient(rgb(10, 5, 25), rgb(45, 25, 65));
 }
 
 .navbar {
@@ -39,7 +39,7 @@ body {
   padding: 5px 15px;
   font-family: 'Open Sans', sans-serif;
   letter-spacing: 1px;
-  margin-top:15%;
+  margin-top: 15%;
 }
 
 .btn-primary:hover {
