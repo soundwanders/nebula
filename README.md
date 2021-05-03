@@ -1,6 +1,6 @@
 # Nebula
 
-##### Mbile-first design built with Bootstrap
+##### Mobile-first design built with Bootstrap
 
 ##### Gallery of incredible nebulae
 
