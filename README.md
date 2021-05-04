@@ -1,7 +1,7 @@
-# Nebula
+<a href="https://soundwanders.github.io/starmap"><h2>.nebula</h2></a>
 
-##### Mobile-first design built with Bootstrap
+#### Image gallery of discovered nebulae
 
-##### Gallery of incredible nebulae
-
-<a href="https://soundwanders.github.io/starmap">.nebula</a>
+###### Mobile-first design built with Bootstrap.
+###### Used Bootstrap's Cards for content containers, with a separate card for every individual nebula.
+###### Each nebula's image is a modal that pops out when clicked on.
