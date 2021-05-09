@@ -1,5 +1,10 @@
 body {
   background-image: linear-gradient(rgb(10, 5, 25), rgb(45, 25, 65));
+  overflow-x: hidden;
+}
+
+main {
+  overflow-x: hidden;
 }
 
 .navbar {
