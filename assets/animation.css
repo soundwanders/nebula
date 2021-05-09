@@ -1,13 +1,16 @@
 .night {
     position: relative;
-    width: 70%;
+    max-width: 70%;
     height: 100%;
     transform: rotateZ(45deg);
+    overflow: inherit; 
+    white-space: nowrap;
+    text-overflow: clip;
     z-index: -10;
 }
 .shooting_star {
     position: absolute;
-    left: 50%;
+    left: 10%;
     top: 50%;
     height: 2px;
     background: linear-gradient(-45deg, rgba(95, 145, 255, 1), rgba(0, 0, 255, 0));
@@ -225,7 +228,7 @@
     0% {
         transform: translateX(0);
    }
-    70% {
-        transform: translateX(300px);
+    100% {
+        transform: translateX(200px);
    }
 }
