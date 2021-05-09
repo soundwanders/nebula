@@ -1,7 +1,7 @@
 .night {
     position: relative;
     width: 70%;
-    height: auto;
+    height: 100%;
     transform: rotateZ(45deg);
     z-index: -10;
 }
@@ -198,6 +198,7 @@
 .shooting_star:nth-child(20)::before, .shooting_star:nth-child(20)::after {
     animation-delay: 1923ms;
 }
+
 @keyframes tail {
     0% {
         width: 0;
@@ -226,13 +227,5 @@
    }
     100% {
         transform: translateX(300px);
-   }
-}
-@keyframes sky {
-    0% {
-        transform: rotate(45deg);
-   }
-    100% {
-        transform: rotate(405deg);
    }
 }
