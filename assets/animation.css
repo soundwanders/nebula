@@ -225,7 +225,7 @@
     0% {
         transform: translateX(0);
    }
-    100% {
+    70% {
         transform: translateX(300px);
    }
 }
