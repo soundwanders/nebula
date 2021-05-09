@@ -2,6 +2,6 @@
 
 #### Image gallery of discovered nebulae
 
-###### Mobile-first design built with Bootstrap.
+###### Designed to work on all devices using Bootstrap.
 ###### Used Bootstrap's Cards for content containers, with a separate card for every individual nebula.
 ###### Each nebula's image is a modal that pops out when clicked on.
