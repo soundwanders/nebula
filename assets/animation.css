@@ -230,6 +230,18 @@
         transform: translateX(0);
    }
     100% {
-        transform: translateX(300px);
+        transform: translateX(500px);
    }
+}
+
+
+@media only screen and (min-width: 300px) and (max-width: 801) {
+    @keyframes shooting {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(200px);
+        }
+    }
 }
