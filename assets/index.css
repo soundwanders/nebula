@@ -1,10 +1,8 @@
 body {
   background-image: linear-gradient(rgb(10, 5, 25), rgb(45, 25, 65));
+  width: 100%;
   overflow-x: hidden;
-}
-
-main {
-  overflow-x: hidden;
+  user-select: text;
 }
 
 .navbar {
@@ -54,18 +52,12 @@ main {
   opacity: 0.9;
 }
 
-.btn-primary:active {
-  background-color: #ffffff;
-  box-shadow: inset 0 3px 3px #fff, 0 0 3px #6f7579;
-  -o-box-shadow: inset 0 3px 3px #fff, 0 0 3px #6f7579;
-  -webkit-box-shadow: inset 0 3px 3px #fff, 0 0 3px #6f7579;
-  -moz-box-shadow: inset 0 3px 3px #fff,0 0 3px #6f7579;
-  outline: none;
-  border: none;
-}
-
 .col-md {
   margin-right: 3%;
+}
+
+img { 
+  transition: all ease-in .3s ease-out .3s;
 }
 
 img:hover {
@@ -85,15 +77,23 @@ img:hover {
 
 .card-title {
   color:darkslateblue;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 800;
+  font-family: 'Lato', 'Open Sans', sans-serif;
+  font-weight: 600;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+.card-title:hover {
+  letter-spacing: 0.1em;
+  transition: ease-in 400ms;
 }
 
 .card-body {
   background-color: rgb(245, 235, 250);
   font-family: 'Open Sans', sans-serif;
-  font-weight: 500;
-  color: #000;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  color: rgb(0, 0, 0);
   border-bottom: 3px solid rgb(165, 155, 255);
   box-shadow: 0 1px 0 1px rgb(165, 155, 255);
 }
