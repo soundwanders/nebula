@@ -1,14 +1,11 @@
 /* rgb(165, 155, 255) */
 
-.starContainer {
+.skyContainer {
     position: relative;
     max-width: 90%;
     height: 90%;
     float: left;
     transform: rotateZ(45deg);
-    overflow: inherit; 
-    white-space: nowrap;
-    text-overflow: clip;
     z-index: -10;
 }
 .shooting_star {
@@ -20,7 +17,6 @@
     border-radius: 999px;
     filter: drop-shadow(0 0 6px rgba(105, 155, 255, 1));
     animation: tail 8000ms ease-in-out infinite, shooting 8000ms ease-in-out infinite;
-    overflow-x:hidden;
 }
 .shooting_star::before {
     content: '';
@@ -227,11 +223,23 @@
         width: 0;
    }
 }
+
 @keyframes shooting {
     0% {
-        transform: translateX(0);
+        transform: translateX(0%);
    }
     100% {
-        transform: translateX(35rem);
+        transform: translateX(120px);
    }
+}
+
+@media (min-width: 1025px) {
+    @keyframes shooting {
+        0% {
+            transform: translateX(0%);
+       }
+        100% {
+            transform: translateX(35rem);
+       }
+    }
 }
