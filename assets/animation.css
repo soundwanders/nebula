@@ -226,17 +226,28 @@
 
 @keyframes shooting {
     0% {
-        transform: translateX(0%);
+        transform: translateX(0);
    }
     100% {
-        transform: translateX(120px);
+        transform: translateX(50px);
    }
 }
+
+@media (max-width: 768px) and (orientation: landscape) {
+    @keyframes shooting {
+        0% {
+            transform: translateX(0);
+       }
+        100% {
+            transform: translateX(300px);
+       }
+    }
+  }
 
 @media (min-width: 1025px) {
     @keyframes shooting {
         0% {
-            transform: translateX(0%);
+            transform: translateX(0);
        }
         100% {
             transform: translateX(35rem);
