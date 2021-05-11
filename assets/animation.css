@@ -11,7 +11,7 @@
 .shooting_star {
     position: absolute;
     top: 50%;
-    left: 10%;
+    left: 50%;
     height: 2px;
     background: linear-gradient(-45deg,rgb(165, 155, 255), rgba(0, 0, 255, 0));
     border-radius: 999px;
@@ -217,7 +217,7 @@
         width: 0;
    }
     50% {
-        width: 1.25em;
+        width: 1.27em;
    }
     100% {
         width: 0;
@@ -229,7 +229,7 @@
         transform: translateX(0);
    }
     100% {
-        transform: translateX(50px);
+        transform: translateX(70px);
    }
 }
 
@@ -245,6 +245,9 @@
   }
 
 @media (min-width: 1025px) {
+    .skyContainer {
+        float: none;
+    }
     @keyframes shooting {
         0% {
             transform: translateX(0);

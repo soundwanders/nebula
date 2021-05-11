@@ -5,6 +5,10 @@ body {
   user-select: text;
 }
 
+main {
+  margin: 1rem 1rem;
+}
+
 .navbar {
   background: #000;
   border-bottom: 1px solid rgb(165, 155, 255);
@@ -26,10 +30,14 @@ body {
   color:rgb(235, 235, 180);
   text-decoration: none;
 }
-.navbar li a:active {
-  box-shadow: 0 1px 1px #fff, 1px 0 2px #8ec1da;
 
+.navbar-brand:hover {
+  outline: none;
+  border: none;
+  box-shadow: none;
+  transform: scale(1.05);
 }
+
 .btn-primary {
   background-color: slateblue;
   box-shadow: inset 0 1px 1px #fff, 0 0 1px #8ec1da;
@@ -39,16 +47,18 @@ body {
   border-radius: 5px;
   outline: none;
   border: none;
+  border-bottom: 2px solid #3f3f3f;
   padding: 5px 15px;
   font-family: 'Open Sans', sans-serif;
   letter-spacing: 1px;
-  margin-top: 15%;
+  user-select: contain;
 }
 
 .btn-primary:hover {
   background-color: slateblue;
-  border-radius: 5px 22px;
-  transition: 0.3s;
+  border-radius: 5px 25px;
+  border-bottom: 3px solid #3f3f3f;
+  transition: 0.2s;
   opacity: 0.9;
 }
 
@@ -63,7 +73,7 @@ img {
 img:hover {
   opacity: 0.8;
   border: 1px solid rgb(245, 235, 250);
-  transition: all .3s ease;
+  transition: all .5s ease;
 }
 
 .card-img-top {
@@ -77,20 +87,21 @@ img:hover {
 
 .card-title {
   color:darkslateblue;
-  font-family: 'Lato', 'Open Sans', sans-serif;
-  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+  user-select: none;
 }
 
 .card-title:hover {
-  letter-spacing: 0.1em;
-  transition: ease-in 400ms;
+  letter-spacing: 0.03em;
+  transition: ease-in 500ms;
 }
 
 .card-body {
   background-color: rgb(245, 235, 250);
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lato', 'Open Sans', sans-serif;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   color: rgb(0, 0, 0);
@@ -100,6 +111,10 @@ img:hover {
 
 
 @media (min-width: 1025px) {
+  .card-title {
+    user-select: text;
+  }
+
   .row {
       margin-top: 2%;
    }
