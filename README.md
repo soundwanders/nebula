@@ -3,5 +3,5 @@
 #### Image gallery of discovered nebulae
 
 ###### Built with Bootstrap.
-###### Used Bootstrap's Cards for content containers, with a separate card for every individual nebula.
+###### Card content containers, with a separate card for every individual nebula.
 ###### Each nebula's image is a modal that pops out when clicked on.
