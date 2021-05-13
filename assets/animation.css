@@ -229,7 +229,7 @@
         transform: translateX(0);
    }
     100% {
-        transform: translateX(90px);
+        transform: translateX(120px);
    }
 }
 
