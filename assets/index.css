@@ -53,6 +53,11 @@ main {
   width: 100%;
 }
 
+.bannerImage:hover {
+  opacity: 1.0;
+  border: none;
+}
+
 .btn-primary {
   background-color: slateblue;
   box-shadow: inset 0 1px 1px #fff, 0 0 1px #8ec1da;
